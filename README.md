@@ -1,6 +1,17 @@
 # Welcome to the Microsoft Global Secure Access training Hub
 
-## Contributing
+# Getting Started
+Explore Documentation: Dive into our extensive documentation to understand the core concepts around Microsoft Global Secure Access 
+
+# Licensing
+
+# PoC as a Service
+
+# Service Partners training
+Explore our recorded training sessions and materials presented by our Microsoft Product group exclusively for our Service Partners. 
+To consume some of this materials, you must have a Microsoft Partner One ID and Microsoft Partner Network (MPN) access
+
+# Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -21,3 +32,4 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
