@@ -2,7 +2,7 @@
 Microsoft Entra Internet Access and Microsoft Entra Private Access are unified under Global Secure Access in the Microsoft Entra admin center.
 
 # Getting Started
-Explore Documentation: Dive into our extensive documentation to understand the core concepts around Microsoft Global Secure Access [here](https://learn.microsoft.com/en-us/entra/global-secure-access/)
+Dive into our extensive documentation around Microsoft Global Secure Access [here](https://learn.microsoft.com/en-us/entra/global-secure-access/)
 
 # Licensing
 
