@@ -1,12 +1,15 @@
 # Welcome to the Microsoft Global Secure Access training Hub
+Microsoft Entra Internet Access and Microsoft Entra Private Access are unified under Global Secure Access in the Microsoft Entra admin center.
 
 # Getting Started
-Explore Documentation: Dive into our extensive documentation to understand the core concepts around Microsoft Global Secure Access 
+Explore Documentation: Dive into our extensive documentation to understand the core concepts around Microsoft Global Secure Access [here](https://learn.microsoft.com/en-us/entra/global-secure-access/)
 
 # Licensing
 
 # PoC as a Service
 Use this set of documents to help customers understand how the product works and walk through product configuration.
+* Security Service Edge -PoC Scoping
+* Security Service Edge -Delivery Guide 
 
 Deployment Guide [here](https://aka.ms/SSEDeploy)
 
