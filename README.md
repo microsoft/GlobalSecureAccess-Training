@@ -1,6 +1,4 @@
-# Project
-
-> Welcome to the Microsoft Global Secure Access training Hub
+# Welcome to the Microsoft Global Secure Access training Hub
 
 ## Contributing
 
