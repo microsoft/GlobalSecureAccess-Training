@@ -6,6 +6,9 @@ Explore Documentation: Dive into our extensive documentation to understand the c
 # Licensing
 
 # PoC as a Service
+Use this set of documents to help customers understand how the product works and walk through product configuration.
+
+Deployment Guide [here](https://aka.ms/SSEDeploy)
 
 # Service Partners training
 Explore our recorded training sessions and materials presented by our Microsoft Product group exclusively for our Service Partners. 
