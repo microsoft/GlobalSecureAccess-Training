@@ -1,4 +1,4 @@
-# Welcome to the Global Secure Access training Hub
+# Welcome to the Global Secure Access Training Hub
 
 [Global Secure Access Training Hub](https://aka.ms/GlobalSecureAccessTraining)
 
@@ -81,7 +81,7 @@ Explore our recorded training sessions and materials presented by our Microsoft 
 - Partner Scenario 1
 - Partner Scenario 2
 
-# 🛠️ Contributing
+## 🛠️ Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
