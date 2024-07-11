@@ -38,7 +38,7 @@ Welcome to our GitHub repository dedicated to Global Secure Access – the unify
 [Visit the Global Secure Access licensing documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/overview-what-is-global-secure-access#licensing-overview)
 
 
-## 📦 POC in a Box
+## 📦 POC as a Service
 
 Explore a diverse array of scenarios featuring comprehensive documentation, step-by-step walkthroughs, and recorded demos that showcase Microsoft's SSE solution. Whether you're delving into the basics or seeking advanced insights, our repository is your go-to source for mastering Global Secure Access.
 
@@ -46,7 +46,7 @@ Use this set of documents to help customers understand how the product works and
 * Security Service Edge -PoC Scoping
 * Security Service Edge -Delivery Guide 
 
-### Microsoft Entra Internet Access 
+### Microsoft Entra Private Access 
 
 - Scenario 1
 - Scenario 2
