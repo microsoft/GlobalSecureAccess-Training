@@ -16,7 +16,7 @@ const config = {
   url: 'https://microsoft.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/GlobalSecureAccess-Training',
+  baseUrl: '/GlobalSecureAccess-Training/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -33,6 +33,14 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: [
+    "@docusaurus/theme-mermaid",
+    "@easyops-cn/docusaurus-search-local",
+  ],
 
   presets: [
     [
@@ -59,7 +67,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.jpg',
       navbar: {
         title: 'Global Secure Access - Training',
         logo: {
@@ -68,14 +76,9 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Resources',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/microsoft/GlobalSecureAccess-Training',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
             position: 'right',
           },
         ],
@@ -88,24 +91,24 @@ const config = {
             items: [
               {
                 label: 'Resources',
-                to: '/docs/intro',
+                to: '/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Quick Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Global Secure Access',
+                href: 'https://learn.microsoft.com/entra/global-secure-access',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Private Access',
+                href: 'https://learn.microsoft.com/entra/global-secure-access/concept-private-access',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Internet Access',
+                href: 'https://learn.microsoft.com/entra/global-secure-access/concept-internet-access',
               },
             ],
           },
@@ -113,17 +116,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/microsoft/GlobalSecureAccess-Training',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Built by the Microsoft Identity Customer Acceleration Team.`,
       },
       prism: {
         theme: prismThemes.github,
