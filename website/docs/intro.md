@@ -43,7 +43,7 @@ Welcome to our GitHub repository dedicated to Global Secure Access – the unify
 
 [Visit the Global Secure Access licensing documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/overview-what-is-global-secure-access#licensing-overview)
 
-## 📦 POC as a Service
+## 📦 POC in a Box
 
 Explore a diverse array of scenarios featuring comprehensive documentation, step-by-step walkthroughs, and recorded demos that showcase Microsoft's SSE solution. Whether you're delving into the basics or seeking advanced insights, our repository is your go-to source for mastering Global Secure Access.
 
