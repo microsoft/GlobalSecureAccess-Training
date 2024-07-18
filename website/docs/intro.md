@@ -68,23 +68,3 @@ Check out these valuable resources from Microsoft for step-by-step instructions 
 
 - [Microsoft's SSE Solution Deployment Guides](https://aka.ms/ssedeploy)
   
-## 🤝 Service Partners training
-
-Explore our recorded training sessions and materials presented by our Microsoft Product group exclusively for our Service Partners. Some of these materials may be gated and require that you have a Microsoft Partner One ID and Microsoft Partner Network (MPN) access.
-
-### Global Secure Access
-
-- PoC Feedback form 
-- Deck (PDF Format)
-- Partner training recording
-- Partner Lab setup
-- Customer Flyer
-- Infographic (Requires MPN Access)
-- Pre-Engagement Deck
-- L100 Deck (Requires MPN Access)
-- L200 Deck (Requires MPN Access)
-
-### Scenarios
-
-- Partner Scenario 1
-- Partner Scenario 2
