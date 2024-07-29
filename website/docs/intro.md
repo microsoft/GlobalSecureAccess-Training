@@ -49,6 +49,8 @@ Explore a diverse array of scenarios featuring comprehensive documentation, step
 
 Use this set of documents to help customers understand how the product works and walk through product configuration.
 
+- [PoC Content](https://microsoft.github.io/GlobalSecureAccess-Training/category/global-secure-access)
+
 
 
 ## ⏩ Deployment Guides for Proof of Concepts (PoCs)
