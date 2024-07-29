@@ -49,18 +49,7 @@ Explore a diverse array of scenarios featuring comprehensive documentation, step
 
 Use this set of documents to help customers understand how the product works and walk through product configuration.
 
-* Security Service Edge -PoC Scoping
-* Security Service Edge -Delivery Guide
 
-### Microsoft Entra Private Access
-
-- Scenario 1
-- Scenario 2
-
-### Microsoft Entra Internet Access
-
-- Scenario 1
-- Scenario 2
 
 ## ⏩ Deployment Guides for Proof of Concepts (PoCs)
 
