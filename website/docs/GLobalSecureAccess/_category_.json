@@ -1,8 +1,0 @@
-{
-  "label": "Global Secure Access",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Content for deploy a Proof of Concept of Microsoft´s SSE"
-  }
-}

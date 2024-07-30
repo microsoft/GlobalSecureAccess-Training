@@ -1,0 +1,10 @@
+{
+  "label": "🛠️ Pre-Requisites",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Content for deploying a Proof of Concept of Microsoft's SSE"
+  }
+}
