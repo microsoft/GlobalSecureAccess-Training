@@ -17,7 +17,7 @@ Activate Microsoft SSE through the Microsoft Entra admin center and make initial
 ![alt text](../img/ActivateGSA.png)
 
 3. Go to **Global Secure Access** > **Connect** > **Traffic forwarding**. Turn on **Microsoft profile**, **Private access profile**, and **Internet access profile**.
-Traffic forwarding enables you to configure the type of network traffic to tunnel through the Microsoft's Security Service Edge Solution services. You set up [traffic forwarding profiles](../global-secure-access/concept-traffic-forwarding.md) to manage types of traffic. The **Microsoft traffic profile** is for Microsoft Entra Internet Access for Microsoft Traffic. Microsoft's Security Service Edge solution only captures traffic on client devices that have Global Secure Access Client installed.
+Traffic forwarding enables you to configure the type of network traffic to tunnel through the Microsoft's Security Service Edge Solution services. You set up [traffic forwarding profiles](https://learn.microsoft.com/entra/global-secure-access/concept-traffic-forwarding) to manage types of traffic. The **Microsoft traffic profile** is for Microsoft Entra Internet Access for Microsoft Traffic. Microsoft's Security Service Edge solution only captures traffic on client devices that have Global Secure Access Client installed.
 
    > When you enable the Internet Access forwarding profile, you should also enable the Microsoft traffic forwarding profile for optimal routing of Microsoft traffic.
 
