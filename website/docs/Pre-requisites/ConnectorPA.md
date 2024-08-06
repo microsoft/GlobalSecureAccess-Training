@@ -125,9 +125,9 @@ To use Private Access, install a connector on each Windows server you're using f
 
 ## Things to know
 
-If you've previously installed a connector, reinstall it to get the latest version. When upgrading, uninstall the existing connector and delete any related folders. To see information about previously released versions and what changes they include, see [Application Proxy: Version Release History](/azure/active-directory/app-proxy/application-proxy-release-version-history).
+If you've previously installed a connector, reinstall it to get the latest version. When upgrading, uninstall the existing connector and delete any related folders. To see information about previously released versions and what changes they include, see [Application Proxy: Version Release History](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-version-history).
 
-If you choose to have more than one Windows server for your on-premises applications, you need to install and register the connector on each server. You can organize the connectors into connector groups. For more information, see [connector groups](concept-connector-groups.md).
+If you choose to have more than one Windows server for your on-premises applications, you need to install and register the connector on each server. You can organize the connectors into connector groups. For more information, see [connector groups](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-connector-groups).
 
 For information about connectors, capacity planning, and how they stay up-to-date, see [Understand Microsoft Entra private network connectors](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-connectors).
 
