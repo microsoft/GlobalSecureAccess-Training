@@ -21,8 +21,8 @@ The Microsoft Entra private network connector requires a server running Windows 
 
 * For high availability in your environment, we recommend having more than one Windows server.
 * The minimum .NET version required for the connector is v4.7.1+.
-* For more information, see [private network connectors](../identity/app-proxy/application-proxy-connectors.md#requirements-and-deployment)
-* For more information, see [Determine which .NET framework versions are installed](/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed).
+* For more information, see [private network connectors](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-connectors#requirements-and-deployment)
+* For more information, see [Determine which .NET framework versions are installed](https://learn.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed).
 
 > [!IMPORTANT]
 > Disable HTTP 2.0 when using the Microsoft Entra private network connector with Microsoft Entra application proxy on Windows Server 2019 or later.
@@ -74,15 +74,13 @@ To enable TLS 1.2:
 
 #### Recommendations for the connector server
 
-- Optimize performance between the connector and the application. Physically locate the connector server close to the application servers. For more information, see [Optimize traffic flow with Microsoft Entra application proxy](../identity/app-proxy/application-proxy-network-topology.md).
+- Optimize performance between the connector and the application. Physically locate the connector server close to the application servers. For more information, see [Optimize traffic flow with Microsoft Entra application proxy](https://learn.microsoft.com/en-us/entra/identity/app-proxy/application-proxy-network-topology).
 - Make sure the connector server and the web application servers are in the same Active Directory domain or span trusting domains. Having the servers in the same domain or trusting domains is a requirement for using single sign-on (SSO) with integrated Windows authentication (IWA) and Kerberos Constrained Delegation (KCD). If the connector server and web application servers are in different Active Directory domains, use resource-based delegation for single sign-on.
 
 ### Prepare your on-premises environment
 
 Start by enabling communication to Azure data centers to prepare your environment for Microsoft Entra application proxy. If there's a firewall in the path, make sure it's open. An open firewall allows the connector to make HTTPS (TCP) requests to the Application Proxy.
 
-> [!IMPORTANT]
-> If you are installing the connector for Azure Government cloud follow the [prerequisites](../identity/hybrid/connect/reference-connect-government-cloud.md#allow-access-to-urls) and [installation steps](/azure/active-directory/hybrid/connect/reference-connect-government-cloud). This requires enabling access to a different set of URLs and an additional parameter to run the installation.
 
 #### Open ports
 
