@@ -166,7 +166,7 @@ To confirm the connector installed and registered correctly:
     * *Microsoft Entra private network connector updater* is an automated update service.
     * The updater checks for new versions of the connector and updates the connector as needed.
 
-    ![Screenshot of the private network connector and connector updater services in Windows Services Manager.](../img/ConnectorPA/app-proxy-services.png)
+    ![Screenshot of the private network connector and connector updater services in Windows Services Manager.](../img/app-proxy-services.png)
 
 1. If the status for the services isn't **Running**, right-click to select each service and choose **Start**.
 
