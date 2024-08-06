@@ -14,6 +14,7 @@ To add private resources and applications to Microsoft Entra ID you need:
 * An Application Administrator account.
 
 User identities must be synchronized from an on-premises directory or created directly within your Microsoft Entra tenants. Identity synchronization allows Microsoft Entra ID to pre-authenticate users before granting them access to application proxy published applications and to have the necessary user identifier information to perform single sign-on (SSO).
+includes as *** 
 
 ### Windows server
 
