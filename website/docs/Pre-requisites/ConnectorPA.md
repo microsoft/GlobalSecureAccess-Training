@@ -178,3 +178,5 @@ To create as many connector groups as you want:
 1. Select **New connector group**.
 1. Give your new connector group a name, then use the dropdown menu to select which connectors belong in this group.
 1. Select **Save**.
+
+To learn more about connector groups, see [Understand Microsoft Entra private network connector groups](https://github.com/MicrosoftDocs/entra-docs/blob/main/docs/global-secure-access/concept-connector-groups.md).
