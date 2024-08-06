@@ -4,13 +4,13 @@ sidebar_position: 6
 
 # How to configure private network connectors for Microsoft Entra Private Access and Microsoft Entra application proxy
 
-Connectors are lightweight agents that sit on a server in a private network and facilitate the outbound connection to the Global Secure Access service. Connectors must be installed on a Windows Server that has access to the backend resources and applications. You can organize connectors into connector groups, with each group handling traffic to specific applications. To learn more about connectors, see [Understand Microsoft Entra private network connectors](concept-connectors.md).
+Connectors are lightweight agents that sit on a server in a private network and facilitate the outbound connection to the Global Secure Access service. Connectors must be installed on a Windows Server that has access to the backend resources and applications. You can organize connectors into connector groups, with each group handling traffic to specific applications. To learn more about connectors, see [Understand Microsoft Entra private network connectors](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-connectors).
 
 ## Prerequisites
 
 To add private resources and applications to Microsoft Entra ID you need:
 
-* The product requires a license. To learn more about licensing, see the licensing section of [What is Global Secure Access](overview-what-is-global-secure-access.md). If needed, you can [purchase licenses or get trial licenses](https://aka.ms/azureadlicense). 
+* The product requires a license. To learn more about licensing, see the licensing section of [What is Global Secure Access](https://learn.microsoft.com/en-us/entra/global-secure-access/overview-what-is-global-secure-access). If needed, you can [purchase licenses or get trial licenses](https://aka.ms/azureadlicense). 
 * An Application Administrator account.
 
 User identities must be synchronized from an on-premises directory or created directly within your Microsoft Entra tenants. Identity synchronization allows Microsoft Entra ID to pre-authenticate users before granting them access to application proxy published applications and to have the necessary user identifier information to perform single sign-on (SSO).
@@ -70,7 +70,7 @@ To enable TLS 1.2:
    1. Restart the server.
 
 > [!NOTE]
-> Microsoft is updating Azure services to use TLS certificates from a different set of Root Certificate Authorities (CAs). This change is being made because the current CA certificates do not comply with one of the CA/Browser Forum Baseline requirements. For more information, see [Azure TLS certificate changes](/azure/security/fundamentals/tls-certificate-changes).
+> Microsoft is updating Azure services to use TLS certificates from a different set of Root Certificate Authorities (CAs). This change is being made because the current CA certificates do not comply with one of the CA/Browser Forum Baseline requirements. For more information, see [Azure TLS certificate changes](https://learn.microsoft.com/en-us/azure/security/fundamentals/tls-certificate-changes).
 
 #### Recommendations for the connector server
 
@@ -129,7 +129,7 @@ If you've previously installed a connector, reinstall it to get the latest versi
 
 If you choose to have more than one Windows server for your on-premises applications, you need to install and register the connector on each server. You can organize the connectors into connector groups. For more information, see [connector groups](concept-connector-groups.md).
 
-For information about connectors, capacity planning, and how they stay up-to-date, see [Understand Microsoft Entra private network connectors](concept-connectors.md).
+For information about connectors, capacity planning, and how they stay up-to-date, see [Understand Microsoft Entra private network connectors](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-connectors).
 
 > [!NOTE]
 > Microsoft Entra Private Access does not support multi-geo connectors. The cloud service instances for your connector are chosen in the same region as your Microsoft Entra tenant (or the closest region to it) even if you have connectors installed in regions different from your default region.
@@ -138,7 +138,7 @@ For information about connectors, capacity planning, and how they stay up-to-dat
 
 You can use the Global Secure Access portal or your Windows server to confirm that a new connector installed correctly.
 
-For information about troubleshooting application proxy issues, see [Debug application proxy application issues](../identity/app-proxy/application-proxy-debug-apps.md).
+For information about troubleshooting application proxy issues, see [Debug application proxy application issues](https://learn.microsoft.com/en-us/entra/identity/app-proxy/application-proxy-debug-apps).
 
 ### Verify the installation through the Microsoft Entra admin center
 
@@ -153,7 +153,7 @@ To confirm the connector installed and registered correctly:
 
     ![Screenshot of the connector groups and connector group details.](../img/ConnectorPA/app-proxy-connectors-status.png)
 
-For more help with installing a connector, see [troubleshoot connectors](troubleshoot-connectors.md).
+For more help with installing a connector, see [troubleshoot connectors](https://learn.microsoft.com/en-us/entra/global-secure-access/troubleshoot-connectors).
 
 ### Verify the installation through your Windows server
 
