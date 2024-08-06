@@ -1,5 +1,6 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
+title: "Connector Private Access"
 ---
 
 # How to configure private network connectors for Microsoft Entra Private Access and Microsoft Entra application proxy
