@@ -2,6 +2,7 @@
 sidebar_position: 5
 title: "ConnectorPA"
 ---
+
 # How to configure private network connectors for Microsoft Entra Private Access and Microsoft Entra application proxy
 
 Connectors are lightweight agents that sit on a server in a private network and facilitate the outbound connection to the Global Secure Access service. Connectors must be installed on a Windows Server that has access to the backend resources and applications. You can organize connectors into connector groups, with each group handling traffic to specific applications. To learn more about connectors, see [Understand Microsoft Entra private network connectors](concept-connectors.md).
