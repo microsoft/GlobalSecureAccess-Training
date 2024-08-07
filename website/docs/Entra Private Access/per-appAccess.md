@@ -18,7 +18,7 @@ To configure Per-App Access, you need to have a connector group with at least on
 
 To summarize, the overall process is as follows:
 
-1. [Create a connector group with at least one active private network connector](#create-a-private-network-connector-group).
+1. [Create a connector group with at least one active private network connector](../docs/Pre-requisites/ConnectorPA.md).
     - If you already have a connector group, make sure you're on the latest version.
 
 1. [Create a Global Secure Access app](#create-a-global-secure-access-application).
@@ -50,7 +50,7 @@ To create a new app, you provide a name, select a connector group, and then add 
 1. Browse to **Global Secure Access** > **Applications** > **Enterprise applications**.
 1. Select **New application**.
 
-    ![Screenshot of the Enterprise apps and Add new application button.](../media/new-enterprise-app.png)
+    ![Screenshot of the Enterprise apps and Add new application button.](../img/new-enterprise-app.png)
 
 1. Enter a name for the app.
 1. Select a Connector group from the dropdown menu.
@@ -91,7 +91,7 @@ You can add fully qualified domain names (FQDN), IP addresses, and IP address ra
     - Spaces between values are removed when you apply the changes.
     - For example, `400-500, 80, 443`.
 
-    ![Screenshot of the create app segment panel with multiple ports added.](../media/app-segment-multiple-ports.png)
+    ![Screenshot of the create app segment panel with multiple ports added.](../img/app-segment-multiple-ports.png)
 
     The following table provides the most commonly used ports and their associated networking protocols:
 
