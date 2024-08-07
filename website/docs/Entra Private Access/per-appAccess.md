@@ -14,7 +14,7 @@ Global Secure Access application provides a more detailed ability to manage how 
 
 To configure a Global Secure Access app, you must have a connector group with at least one active private network connector.
 
-If you don't already have a connector set up, see [Configure connectors](../docs/Pre-requisites/ConnectorPA.md).
+If you don't already have a connector set up, see [Configure connectors](https://microsoft.github.io/GlobalSecureAccess-Training/Pre-requisites/ConnectorPA)
 
 > [!NOTE]
 > If you've previously installed a connector, reinstall it to get the latest version. When upgrading, uninstall the existing connector and delete any related folders.
