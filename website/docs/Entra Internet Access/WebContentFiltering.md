@@ -68,7 +68,7 @@ In this step, you create a security profile to group filtering policies. Then yo
 
 ## Create and link Conditional Access policy
 
-Create a Conditional Access policy for end users or groups and deliver your security profile through Conditional Access Session controls. Conditional Access is the delivery mechanism for user and context awareness for Internet Access policies. To learn more about session controls, see [Conditional Access: Session](/azure/active-directory/conditional-access/concept-conditional-access-session).
+Create a Conditional Access policy for end users or groups and deliver your security profile through Conditional Access Session controls. Conditional Access is the delivery mechanism for user and context awareness for Internet Access policies. To learn more about session controls, see [Conditional Access: Session](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-session).
 
 1. Browse to **Identity** > **Protection** > **Conditional Access**.
 1. Select **Create new policy**.
