@@ -46,7 +46,7 @@ You can add fully qualified domain names (FQDN), IP addresses, and IP address ra
     - Spaces between values are removed when you apply the changes.
     - For example, `400-500, 80, 443`.
 
-    ![Screenshot of the create app segment panel with multiple ports added.](../img/how-to-configure-per-app-access/app-segment-multiple-ports.png)
+    ![Screenshot of the create app segment panel with multiple ports added.](../img/app-segment-multiple-ports.png)
 
     The following table provides the most commonly used ports and their associated networking protocols:
 
@@ -84,7 +84,7 @@ You can view the properties from **Quick Access** or navigate to **Enterprise ap
 
 1. Select **Edit application settings** from Quick Access. 
 
-    ![Screenshot of edit application settings.](../img/how-to-configure-quick-access/edit-application-settings.png)
+    ![Screenshot of edit application settings.](../img/edit-application-settings.png)
 
 1. Select **Users and groups** from the side menu.
 
