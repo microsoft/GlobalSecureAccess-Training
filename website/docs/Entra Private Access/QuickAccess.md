@@ -1,5 +1,5 @@
 ---
-sidebar_position: 
+sidebar_position: 6
 title: "Quick Access"
 ---
 ## Configure Quick Access
