@@ -23,7 +23,7 @@ The web filtering feature is currently limited to user- and context-aware Fully 
 - User Datagram Protocol (UDP) traffic (that is, QUIC) isn't supported in the current preview of Internet Access. Most websites support fallback to TCP when QUIC cannot be established. For improved user experience, you can deploy a Windows Firewall rule that blocks outbound UDP 443: `@New-NetFirewallRule -DisplayName "Block QUIC" -Direction Outbound -Action Block -Protocol UDP  -RemotePort 443`. 
  
 
-- Review web content filtering concepts. For more information, see [web content filtering](concept-internet-access.md).
+- Review web content filtering concepts. For more information, see [web content filtering](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-internet-access).
 
 ## High level steps
 
