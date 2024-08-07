@@ -1,3 +1,4 @@
+---
 sidebar_position: 8
 title: "Web Content Filtering"
 ---
