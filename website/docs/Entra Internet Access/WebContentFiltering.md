@@ -93,9 +93,9 @@ Use a Windows device with the Global Secure Access client installed. Sign in as 
 
 The current blocking experience for all browsers includes a plaintext browser error for HTTP traffic and a "Connection Reset" browser error for HTTPS traffic.
 
-![Screenshot showing a plaintext browser error for HTTP traffic.](../img/how-to-configure-web-content-filtering/http-block-xbox.png)
+![Screenshot showing a plaintext browser error for HTTP traffic.](../img/http-block-xbox.png)
 
-![Screenshot showing a "Connection Reset" browser error for HTTPS traffic.](../img/how-to-configure-web-content-filtering/https-block-xbox.png)
+![Screenshot showing a "Connection Reset" browser error for HTTPS traffic.](../img/https-block-xbox.png)
 
 
 > [!NOTE]
