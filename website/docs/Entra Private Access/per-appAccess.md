@@ -10,30 +10,11 @@ Global Secure Access application provides a more detailed ability to manage how 
 - Tunneling traffic to Private Access destinations by IP address is supported only for IP ranges outside of the end-user device local subnet.
 - At this time, Private Access traffic can only be acquired with the Global Secure Access client. Remote networks can't be assigned to the Private access traffic forwarding profile.
 
-## High level steps
-
-Per-App Access is configured by creating a new Global Secure Access app. You create the app, select a connector group, and add network access segments. These settings make up the individual app that you can assign users and groups to.
-
-To configure Per-App Access, you need to have a connector group with at least one active [Microsoft Entra application proxy](/azure/active-directory/app-proxy/application-proxy) connector. This connector group handles the traffic to this new application. With Connectors, you can isolate apps per network and connector.
-
-To summarize, the overall process is as follows:
-
-1. [Create a connector group with at least one active private network connector](../docs/Pre-requisites/ConnectorPA.md).
-    - If you already have a connector group, make sure you're on the latest version.
-
-1. [Create a Global Secure Access app](#create-a-global-secure-access-application).
-
-1. [Assign users and groups to the app](#assign-users-and-groups).
-
-1. [Configure Conditional Access policies](#assign-conditional-access-policies).
-
-1. [Enable Microsoft Entra Private Access](#enable-microsoft-entra-private-access).
-
 ## Create a private network connector group
 
 To configure a Global Secure Access app, you must have a connector group with at least one active private network connector.
 
-If you don't already have a connector set up, see [Configure connectors](how-to-configure-connectors.md).
+If you don't already have a connector set up, see [Configure connectors](./docs/Pre-requisites/ConnectorPA.md).
 
 > [!NOTE]
 > If you've previously installed a connector, reinstall it to get the latest version. When upgrading, uninstall the existing connector and delete any related folders.
