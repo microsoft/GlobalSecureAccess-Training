@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-title: "per-app Access"
+title: "Provide access to specific apps"
 ---
 Global Secure Access application provides a more detailed ability to manage how the resources are accessed on a per-app basis
 

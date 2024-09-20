@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 300
 ---
 # Collateral
 This is a collection of resources available for running Global Secure Access POCs.
