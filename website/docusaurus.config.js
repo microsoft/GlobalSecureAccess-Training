@@ -16,12 +16,12 @@ const config = {
   url: 'https://microsoft.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/GlobalSecureAccess-Training/',
+  baseUrl: '/GlobalSecureAccess/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'microsoft', // Usually your GitHub org/user name.
-  projectName: 'GlobalSecureAccess-Training', // Usually your repo name.
+  projectName: 'GlobalSecureAccess', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -53,7 +53,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/microsoft/GlobalSecureAccess-Training/blob/main/src/',
+            'https://github.com/microsoft/GlobalSecureAccess/blob/main/src/',
         },
         blog: false,
         theme: {
@@ -76,7 +76,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/microsoft/GlobalSecureAccess-Training',
+            href: 'https://github.com/microsoft/GlobalSecureAccess',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
             position: 'right',
@@ -113,12 +113,16 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Have feedback? Open an issue in GitHub or email us',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/microsoft/GlobalSecureAccess-Training',
+                href: 'https://github.com/microsoft/GlobalSecureAccess',
               },
+              {
+                label: 'Email us',
+                href: 'mailto:GSAPOC@microsoft.com',
+              }
             ],
           },
         ],
