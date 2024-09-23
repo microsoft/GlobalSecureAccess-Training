@@ -16,4 +16,4 @@ Follow the steps in this article to plan and deploy your connectors in preparati
 
 [How to configure private network connectors for Microsoft Entra Private Access and Microsoft Entra application proxy](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors)
 
-
+> The minimum version of connector required for Private Access is **1.5.3417.0**, however it's recommended to install the [latest available version](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-version-history)

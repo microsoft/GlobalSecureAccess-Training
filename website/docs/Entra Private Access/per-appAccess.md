@@ -2,24 +2,19 @@
 sidebar_position: 7
 title: "Provide access to specific apps"
 ---
-Global Secure Access application provides a more detailed ability to manage how the resources are accessed on a per-app basis
 
-### Known limitations
-
-- Avoid overlapping app segments between Quick Access and Global Secure Access apps.
-- Tunneling traffic to Private Access destinations by IP address is supported only for IP ranges outside of the end-user device local subnet.
-- At this time, Private Access traffic can only be acquired with the Global Secure Access client. Remote networks can't be assigned to the Private access traffic forwarding profile.
+This section covers how to create Enterprise Application to define access to specific applications or resources using Private Access.
+When to use Enterprise Applications to define access:
+* After you have configured the VPN Replacement scenario and want to start [segmenting access](SegmentAccess.md)
+* If you haven't configured VPN Replacement and wish to use Private Access to provide access to specific, known application or resources.
 
 ## Create a private network connector group
 
 To configure a Global Secure Access app, you must have a connector group with at least one active private network connector.
 
-If you don't already have a connector set up, see [Configure connectors](https://microsoft.github.io/GlobalSecureAccess/Pre-requisites/ConnectorPA)
+If you don't already have a connector set up, see [Configure connectors](../Pre-requisites/ConnectorPA.md)
 
-> [!NOTE]
-> If you've previously installed a connector, reinstall it to get the latest version. When upgrading, uninstall the existing connector and delete any related folders.
->
-> The minimum version of connector required for Private Access is **1.5.3417.0**.
+
 
 ## Create a Global Secure Access application
 
@@ -130,10 +125,3 @@ Conditional Access policies for per-app access are configured at the application
 
 For more information, see [Apply Conditional Access policies to Private Access apps](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-target-resource-private-access-apps).
 
-## Enable Microsoft Entra Private Access
-
-Once you have your app configured, your private resources added, users assigned to the app, you can enable the Private access traffic forwarding profile. You can enable the profile before configuring a Global Secure Access app, but without the app and profile configured, there's no traffic to forward.
-
-1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com).
-1. Browse to **Global Secure Access** > **Connect** > **Traffic forwarding**.
-1. Select the toggle for **Private access profile**.
