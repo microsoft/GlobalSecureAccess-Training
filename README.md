@@ -2,4 +2,4 @@
 
 The content on this repo is maintained by the Microsoft Entra Customer Experience Engineering team and is best browsed using the website here:
 
-## [aka.ms/GlobalSecureAccessTraining](https://aka.ms/GlobalSecureAccessTraining)
+## [aka.ms/GlobalSecureAccessCommunity](https://aka.ms/GlobalSecureAccessCommunity)
