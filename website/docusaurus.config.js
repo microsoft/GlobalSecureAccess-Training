@@ -135,4 +135,13 @@ const config = {
     }),
 };
 
+module.exports = {
+  plugins: [
+    [
+      "@gracefullight/docusaurus-plugin-microsoft-clarity",
+      { projectId: "o7yxn2mprq" },
+    ],
+  ],
+};
+
 export default config;
