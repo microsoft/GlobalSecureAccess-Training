@@ -48,6 +48,12 @@ In this example, a user is accessing a file share from a Windows 11 device. Thin
 
 ![alt text](image-2.png)
 
+### Packets "not seen" by the GSA client
+In some cases, you might see the following behavior where traffic is acquired by the GSA client but no outbound packets are seen. Note bytes sent is 0.
+One reason you might see this behavior is when a Windows Firewall rule has been configured to drop/block specific traffic. In the example above, a Windows Firewall rule was blocking RDP.
+
+![alt text](image-6.png)
+
 ### How does DNS work with GSA?
 The GSA client has generally two ways to work with FQDNs.
 If rules (app segments) have been created using FQDNs, then the client will intercept DNS query responses sent to the DNS server defined on the device (usually via DHCP). If the query (for example fs.contoso.local) matches a rule, irrespective of the result (i.e.: user at home won't typically be able to resolve corporate network names) the GSA rewrites the query response to a dynamic synthetic IP (6.6.x.x). Then, if the destination protocol and port matches a rule, the traffic will be tunnelled and resolved later on by the GSA cloud service (for Internet traffic) or by a Private Network Connector (for Private Access).
@@ -75,12 +81,16 @@ For more advance troubleshooting and to understand what DNS servers are being us
 $StartDate = (Get-Date).AddMinutes(-3) ; Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-DNS-Client/Operational';StartTime=$Startdate} | where Message -Match contoso.local | Out-GridView
 ```
 
-### Packets "not seen" by the GSA client
-In some cases, you might see the following behavior where traffic is acquired by the GSA client but no outbound packets are seen. Note bytes sent is 0.
-One reason you might see this behavior is when a Windows Firewall rule has been configured to drop/block specific traffic. In the example above, a Windows Firewall rule was blocking RDP.
+### Known issue: Private DNS 'flaky' resolution
+ There is a known issue where DNS names that should be resolved via Private DNS fail and work on retry, typically causing application access issues.
+ 
+ Troubleshooting:
+ * Force IPv4 only name resolution from the client side, either using ping -4 fqdn or Resolve-DnsName -Type A - Name fqdn. If this provides stable name resolution, you might be hitting this issue.
 
-![alt text](image-6.png)
+Workaround:
+Disable IPv6 on your client machine (where GSA client runs) *AND* on your connector/s servers. *It's important to disable IPv6 on both.*
 
+[Guidance on disabling IPv6 on Windows](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/configure-ipv6-in-windows#:~:text=will%20be%20preferred.-,Disable%20IPv6,-Decimal%20255%0AHexadecimal)
 
 ### Private Access resource access fails
 There are multiple reasons Private Access resources might not work correctly. Here are some troubleshooting steps you can follow.
