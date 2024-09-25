@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 30
 title: "Provide access to specific apps"
 ---
 

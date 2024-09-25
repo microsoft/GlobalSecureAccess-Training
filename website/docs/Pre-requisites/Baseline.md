@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 300
 ---
 
 For running a Global Secure Access POC you will need the following pre-requisites:

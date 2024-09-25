@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 40
 title: "Kerberos SSO to AD resources"
 ---
 

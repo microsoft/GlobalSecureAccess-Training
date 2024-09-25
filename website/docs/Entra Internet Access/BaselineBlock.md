@@ -1,9 +1,9 @@
 ---
-sidebar_position: 9
+sidebar_position: 20
 title: "Block access using Baseline profile"
 ---
 
-## Sample PoC scenario: Create a baseline policy applying to all internet access traffic routed through the service
+## POC scenario: Create a baseline policy applying to all internet access traffic routed through the service
 
 Microsoft Internet Access baseline policy allows to configure filtering policies that apply to all traffic without linking to a Conditional Access policy. 
 You can use the baseline profile to block web categories that no user in the organization should be allowed to browse, for example inappropriate sites.
