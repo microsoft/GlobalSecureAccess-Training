@@ -10,6 +10,16 @@ Here is an example of network access segmentation made possible by Private Acces
 * Only users in the Finance team need access to the Web server finance.contoso.local, hosted by a single web server at 10.1.1.100:443
 * Only the Wintel admins need access to perform remote administration via RDP, so they are allowed access to 10.1.1.100:3389
 
+This deck walks through strategies for segmenting access after configuring Private Access as VPN replacement.\
+[Private Access Segmentation Strategy](https://github.com/microsoft/GlobalSecureAccess/blob/main/website/content/PA%20-%20Segmentation%20Strategy.pptx)
+
+### Overlapping segments
+Private Access allows overlapping between segments defined on *Quick Access* and *Enterprise Apps*. Overlapping segments between Enterprise Apps cannot be configured.
+If a segment defined on an Enterprise App (for example 10.1.1.1:3389) overlaps with a segment defined on Quick Access (for example 10.1.1.0/24:3389), then the segment defined on the Enterprise App will be given priority by the GSA client. This means that if a user is trying to RDP to 10.1.1.1 (as defined by the Enterprise App), the access will be evaluated according to the user and group assignment on that app and not Quick Access. Similarly, Conditional Access policies enforced to the Enterprise Apps will also be enforced.
+
+![alt text](image-3.png)
+
+
 ### Segmentation strategy
 
 Here are the steps to segment access from Quick Access configured to provide broad access to resources:
@@ -20,5 +30,12 @@ Here are the steps to segment access from Quick Access configured to provide bro
 
 ![](image-2.png)
 
-This deck walks through strategies for segmenting access after configuring Private Access as VPN replacement.\
-[Private Access Segmentation Strategy](https://github.com/microsoft/GlobalSecureAccess/blob/main/website/content/PA%20-%20Segmentation%20Strategy.pptx)
+
+
+
+### Segmenting Access defined by an Enterprise App
+If you need to further segment access defined by an Enterprise App, the process looks different. You have 2 options depending on the tolerance for user access disruption.
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
