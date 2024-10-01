@@ -42,7 +42,7 @@ Welcome to our community hub dedicated to Global Secure Access – the unifying 
 
 ### Global Secure Access
 
-[Visit the Global Secure Access licensing documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/overview-what-is-global-secure-access#licensing-overview)
+[Visit the Global Secure Access licensing documentation](https://learn.microsoft.com/entra/global-secure-access/overview-what-is-global-secure-access#licensing-overview)
 
 
 ## ⏩ Deployment Guides for Proof of Concepts (PoCs)

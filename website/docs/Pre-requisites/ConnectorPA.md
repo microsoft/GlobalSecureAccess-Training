@@ -10,11 +10,11 @@ You can organize connectors into connector groups, with each group handling traf
 
 Follow the steps in this article to plan and deploy your connectors in preparation for testing Private Access:
 
-[Understand the Microsoft Entra private network connector](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-connectors)
+[Understand the Microsoft Entra private network connector](https://learn.microsoft.com/entra/global-secure-access/concept-connectors)
 
-[How to configure private network connectors for Microsoft Entra Private Access and Microsoft Entra application proxy](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors)
+[How to configure private network connectors for Microsoft Entra Private Access and Microsoft Entra application proxy](https://learn.microsoft.com/entra/global-secure-access/how-to-configure-connectors)
 
-> The minimum version of connector required for Private Access is **1.5.3417.0**, however it's recommended to install the [latest available version](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-version-history)
+> The minimum version of connector required for Private Access is **1.5.3417.0**, however it's recommended to install the [latest available version](https://learn.microsoft.com/entra/global-secure-access/reference-version-history)
 
 
 ## Tips for avoiding issues on your POCs

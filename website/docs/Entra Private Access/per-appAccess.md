@@ -31,7 +31,7 @@ To create a new app, you provide a name, select a connector group, and then add 
 1. Enter a name for the app.
 1. Select a Connector group from the dropdown menu.
     > [!IMPORTANT]
-    > You must have at least one active connector in order to create an application. To learn more about connectors, see [Understand the Microsoft Entra private network connector](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-connectors).
+    > You must have at least one active connector in order to create an application. To learn more about connectors, see [Understand the Microsoft Entra private network connector](https://learn.microsoft.com/entra/global-secure-access/concept-connectors).
 1. Select the **Save** button at the bottom of the page to create your app without adding private resources.
 
 ### Add application segment
@@ -88,7 +88,7 @@ You can add fully qualified domain names (FQDN), IP addresses, and IP address ra
 
 ## Assign users and groups
 
-You need to grant access to the app you created by assigning users and/or groups to the app. For more information, see [Assign users and groups to an application.](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/assign-user-or-group-access-portal?pivots=portal)
+You need to grant access to the app you created by assigning users and/or groups to the app. For more information, see [Assign users and groups to an application.](https://learn.microsoft.com/entra/identity/enterprise-apps/assign-user-or-group-access-portal?pivots=portal)
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com).
 1. Browse to **Global Secure Access** > **Applications** > **Enterprise applications**.
@@ -123,5 +123,5 @@ Conditional Access policies for per-app access are configured at the application
 - Go to **Global Secure Access** > **Applications** > **Enterprise applications**. Select an application and then select **Conditional Access** from the side menu.
 - Go to **Protection** > **Conditional Access** > **Policies**. Select **+ Create new policy**.
 
-For more information, see [Apply Conditional Access policies to Private Access apps](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-target-resource-private-access-apps).
+For more information, see [Apply Conditional Access policies to Private Access apps](https://learn.microsoft.com/entra/global-secure-access/how-to-target-resource-private-access-apps).
 
