@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: "Windows client troubleshooting"
+title: "🛠️ Windows client troubleshooting"
 ---
 
 ### Is the client connecting?
@@ -64,7 +64,7 @@ GSA uses NRPT policies to direct all name resolution for Private DNS suffixes to
 
 To check NRPT rules, run Get-DnsClientNrptPolicy. In this example, we see two NRPT policies that were created by GSA.
 * One for a suffix configured on Private DNS
-* Another one used to send unqualified names (aka single label) through the tunnel. The GSA client also adds a DNS search suffix for tenantID.globalsecureaccess.local
+* Another one used to send unqualified names (aka single label) through the tunnel. The GSA client also adds a DNS search suffix for AppId.globalsecureaccess.local
 ![alt text](image-5.png)
 
 Once queries have been resolved, GSA continues with the IP/port/protocol evaluation to determine if the traffic should be acquired and tunnelled.
