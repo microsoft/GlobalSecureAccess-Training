@@ -18,7 +18,7 @@ This guide assumes you are running a POC in a production environment. Running a 
 
 ## Private Access
 #### Are you using a VPN today? The best way to start is by testing our "VPN Replacement" scenario.
-This gives you the ability to publish all the same resources that users access through the VPN, protected by Entra ID.
+This gives you the ability to publish all the same resources that users access through the VPN, protected by Microsoft Entra ID.
 From that point onwards, you can start "segmenting access" by creating Enterprise Apps that define access to specific resources that only selected users should access. For example, only administrators should be able to RDP servers.
 
 Review the [VPN Replacement](./Entra%20Private%20Access/VPNReplacement.md) section to understand the recommended configuration for this scenario.
@@ -32,4 +32,4 @@ If you decide to only [publish certain resources using Private Access](./Entra%2
 ## Internet Access
 
 There are several scenarios enabled by Internet Access and Microsoft Access that can be tested as part of a POC.
-Alternatively, coexistence with other solutions can be tested using the guidance provided here: [Secure Access with Global Secure Access Partners](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-cisco-coexistence)
+Alternatively, coexistence with other solutions can be tested using the guidance provided here: [Secure Access with Global Secure Access Partners](https://learn.microsoft.com/entra/global-secure-access/concept-cisco-coexistence)
