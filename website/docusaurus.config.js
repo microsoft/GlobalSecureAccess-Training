@@ -8,8 +8,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Global Secure Access Training',
-  tagline: 'Microsoft Entra training for Global Secure Access',
+  title: 'Global Secure Access Community Resources Hub',
+  tagline: 'Global Secure Access Community Resources Hub',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/social-card.jpg',
       navbar: {
-        title: 'Global Secure Access - Training',
+        title: 'Global Secure Access - Community Resources Hub',
         logo: {
           alt: 'Global Secure Access - Logo',
           src: 'img/logo.svg',
