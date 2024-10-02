@@ -12,7 +12,7 @@ For running a Global Secure Access POC you will need the following pre-requisite
   * Android must have the Microsoft Defender app installed.
 
 * Paid or trial licenses
-  * Microsoft Entra Suite trial licenses https://aka.ms/Microsoft EntraSuiteTrial
+  * Microsoft Entra Suite trial licenses https://aka.ms/EntraSuiteTrial
   * Get Microsoft Entra Internet Access trial licenses https://aka.ms/InternetAccessTrial
   * Get Microsoft Entra Private Access trial licenses https://aka.ms/PrivateAccessTrial
 
