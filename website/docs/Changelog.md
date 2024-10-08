@@ -8,3 +8,6 @@ Oct 1 2024
 * Added a known issues section
 * Kerberos SSO: Added section on Negative Kerb Cache
 * Known issue: truncated DNS search suffix added by GSA client
+
+Oct 4 2024
+* Known issue: Windows GSA client shows "Disabled by your organization" and takes 5 minutes to connect
