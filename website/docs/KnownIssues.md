@@ -34,7 +34,7 @@ Note the missing `l` at the end. Once this truncated suffix is appended, the nam
 **Workaround**: use GPO or Intune to set your DNS search suffix list to the appropriate suffixes.
 **Fix**: coming as part of a new GSA client.
 
-### Enabling Internet Fordwaring Profile
+### Enabling Internet Forwarding Profile
 If you enable the Internet Access traffic forwarding profile, you should **always enable** the Microsoft traffic profile as well. If you only enable the Internet profile, Microsoft traffic will be routed through the Internet Access tunnel, which may result in a suboptimal experience.
 
-**Workaround**: Enable Microsoft traffic forwarding profile We've done a lot of work to make the Microsoft tunnel highly optimized and performant for Microsoft traffic. IA has no such optimizations. Source IP restoration doesn't work in the IA tunnel
+**Workaround**: Enable Microsoft traffic forwarding profile in addition to the Internet traffic forwarding profile. We've done a lot of work to make the Microsoft tunnel highly optimized and performant for Microsoft traffic. IA has no such optimizations. Source IP restoration doesn't work in the IA tunnel
